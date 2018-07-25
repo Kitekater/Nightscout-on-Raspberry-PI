@@ -183,8 +183,8 @@ Optional für automatischen Start von Nightscout bei Pi-Neustart.
 	sudo touch nightscout
 	
 	
-#! /bin/bash
-# Carry out specific functions when asked to by the system
+	#! /bin/bash
+      	# Carry out specific functions when asked to by the system
 	case "$1" in
  		start)
 			echo "Starting Nightscout..."
@@ -209,4 +209,4 @@ Optional für automatischen Start von Nightscout bei Pi-Neustart.
 
 Schritt 8 - Es sollte laufen 🙂
 	Nach einem Neustart des Pi sollte dieser im Netzwerk erreichbar sein unter der zuvor festgelegten IP.
-		http://<ipraspberry>:1337
+		http://local-ip:1337
