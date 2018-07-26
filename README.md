@@ -6,11 +6,9 @@ Installation of a nightscout-intance on a local Raspberry PI
 
 Daten in <> durch eigene Daten ersetzen!!!
 
-Schritt 1 - Raspbian Betriebssystem:
-	Das Raspbian BS wird auf die SD Karte installiert.
-	Der Pi wird mit der SD Karte gestartet und eingerichtet.
-	Wichtig: 
-	Den ssh Dienst auf dem Pi starten
+Schritt 1 - Raspbian Betriebssystem wird vorausgesetzt
+ 
+	Evtl. den ssh Dienst auf dem Pi starten, je nach heimischem Aufbau
 	Den Pi ins lokale Netzwerk bringen und mit einer festen IP versehen.
 	Optional - Den Pi über einen DynDNS Anbieter über das Internet erreichbar machen.
 	Portfreigabe für tcp/1337 im Internetrouter einrichten, um Daten zu empfangen und die Webseite aufrufen zu können.
