@@ -8,10 +8,9 @@ Daten in <> durch eigene Daten ersetzen!!!
 
 Schritt 1 - Raspbian Betriebssystem wird vorausgesetzt
  
-	Evtl. den ssh Dienst auf dem Pi starten, je nach heimischem Aufbau
-	Den Pi ins lokale Netzwerk bringen und mit einer festen IP versehen.
-	Optional - Den Pi über einen DynDNS Anbieter über das Internet erreichbar machen.
-	Portfreigabe für tcp/1337 im Internetrouter einrichten, um Daten zu empfangen und die Webseite aufrufen zu können.
+Evtl. den ssh Dienst auf dem Pi starten, je nach heimischem Aufbau	Den Pi ins lokale Netzwerk bringen und mit einer festen IP versehen.
+Optional - Den Pi über einen DynDNS Anbieter über das Internet erreichbar machen.
+Portfreigabe für tcp/1337 im Internetrouter einrichten, um Daten zu empfangen und die Webseite aufrufen zu können.
 
 Schritt 2 - Raspbian aktualisieren
 	sudo apt-get update
