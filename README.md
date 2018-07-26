@@ -13,8 +13,9 @@ Optional - Den Pi über einen DynDNS Anbieter über das Internet erreichbar mach
 Portfreigabe für tcp/1337 im Internetrouter einrichten, um Daten zu empfangen und die Webseite aufrufen zu können.
 
 Schritt 2 - Raspbian aktualisieren
-	sudo apt-get update
-	sudo apt-get upgrade
+
+		sudo apt-get update
+		sudo apt-get upgrade
 
 Schritt 3 - MongoDB installieren
 
